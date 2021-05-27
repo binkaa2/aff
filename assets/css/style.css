@@ -9,3 +9,64 @@ NOTE:
 ------
 PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
 WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+.product-badge-wrap {
+  position: absolute;
+  top: -15px;
+  left: -15px;
+
+  justify-content: center;
+}
+
+.product-badge-wrap .circle {
+  color: #fff;
+  font-size: 21px;
+  font-weight: 900;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  background: #7367f0;
+  height: 50px;
+  width: 50px;
+  z-index: 3;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.product-badge-wrap .sale {
+  background: #00113d;
+  color: #fff;
+  opacity: 1 !important;
+  top: 10px;
+  left: 40px;
+  z-index: 2;
+  font-size: 13px;
+  padding: 6px 15px;
+
+  font-weight: 500;
+  position: absolute;
+  width: 150px;
+  border-radius: 5px;
+}
+
+.float-left-items {
+  position: absolute;
+  left: 10px;
+}
+@media (min-width: 1200px) {
+  .container,
+  .container-sm,
+  .container-md,
+  .container-lg,
+  .container-xl {
+    max-width: 1000px;
+  }
+}
+
+.container,
+.container-sm,
+.container-md,
+.container-lg,
+.container-xl {
+  max-width: 1000px;
+}

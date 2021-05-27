@@ -114,13 +114,13 @@
   >
     <!-- BEGIN: Header-->
     <nav
-      class="header-navbar navbar-expand-lg navbar navbar-fixed align-items-center navbar-shadow navbar-brand-center"
+      class="header-navbar navbar-expand-lg navbar  align-items-center navbar-shadow navbar-brand-center"
       data-nav="brand-center"
     >
       <div class="navbar-header d-xl-block d-none">
         <ul class="nav navbar-nav">
           <li class="nav-item">
-            <a class="navbar-brand">
+            <a rel="nofollow" class="navbar-brand">
               <h2 class="brand-text mb-0">Waobe</h2>
             </a>
           </li>
@@ -130,7 +130,7 @@
         <div class="bookmark-wrapper d-flex align-items-center">
           <ul class="nav navbar-nav d-xl-none">
             <li class="nav-item">
-              <a class="nav-link menu-toggle" href="javascript:void(0);"
+              <a rel="nofollow" class="nav-link menu-toggle" href="javascript:void(0);"
                 ><i class="ficon" data-feather="menu"></i
               ></a>
             </li>
@@ -139,7 +139,7 @@
 
         <ul class="nav navbar-nav align-items-center ml-auto">
           <li class="nav-item d-lg-block">
-            <button type="button" class="btn btn-outline-primary waves-effect">
+            <a rel="nofollow" href="/" class="btn btn-outline-primary waves-effect">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="14"
@@ -156,7 +156,7 @@
                 <polyline points="9 22 9 12 15 12 15 22"></polyline>
               </svg>
               <span>Home</span>
-            </button>
+            </a>
           </li>
           <li class="nav-item d-lg-block px-2">
             <a>Categories</a>
@@ -171,9 +171,67 @@
     <!-- END: Header-->
 
     <!-- BEGIN: Content-->
-    <div class="app-content ecommerce-application container" style="padding-top:7.2rem">
+    <div class="app-content ecommerce-application container" style="padding-top: 4rem !important;">
       <div class="content-overlay"></div>
-      <div class="header-navbar-shadow"></div>
+      <div class="float-left-items d-lg-block d-none">
+        <ul class="nav nav-pills nav-left flex-column" role="tablist">
+          <!-- payment -->
+          <li class="nav-item">
+              <a rel="nofollow" class="nav-link active" id="payment" data-toggle="pill" href="#faq-payment" aria-expanded="true" role="tab">
+                Top Picks
+              </a>
+          </li>
+
+          <li class="nav-item">
+            <a rel="nofollow" class="nav-link" id="payment" data-toggle="pill" href="#faq-payment" aria-expanded="true" role="tab">
+              Related Reviews
+            </a>
+        </li>
+
+        <li class="nav-item">
+          <a rel="nofollow" class="nav-link" id="payment" data-toggle="pill" href="#faq-payment" aria-expanded="true" role="tab">
+            Buying Guides
+          </a>
+      </li>
+
+      <li class="nav-item">
+        <a rel="nofollow" class="nav-link" id="payment" data-toggle="pill" href="#faq-payment" aria-expanded="true" role="tab">
+          Newsletter
+        </a>
+    </li>
+         
+      </ul>
+      </div>
+      <div class="pb-3 d-lg-none d-block">
+        <ul class="nav nav-pills nav-left flex-row" role="tablist">
+          <!-- payment -->
+          <li class="nav-item">
+              <a rel="nofollow" class="nav-link active" id="payment" data-toggle="pill" href="#faq-payment" aria-expanded="true" role="tab">
+                Top Picks
+              </a>
+          </li>
+
+          <li class="nav-item">
+            <a rel="nofollow" class="nav-link " id="payment" data-toggle="pill" href="#faq-payment" aria-expanded="true" role="tab">
+              Related Reviews
+            </a>
+        </li>
+
+        <li class="nav-item">
+          <a rel="nofollow" class="nav-link" id="payment" data-toggle="pill" href="#faq-payment" aria-expanded="true" role="tab">
+            Buying Guides
+          </a>
+      </li>
+
+      <li class="nav-item">
+        <a rel="nofollow" class="nav-link" id="payment" data-toggle="pill" href="#faq-payment" aria-expanded="true" role="tab">
+          Newsletter
+        </a>
+    </li>
+         
+      </ul>
+      </div>
+      
       <div class="content-wrapper">
         <div class="content-header row">
           <div class="content-header-left col-md-9 col-12 mb-2">
@@ -185,76 +243,61 @@
                 <div class="breadcrumb-wrapper">
                   <ol class="breadcrumb">
                     <li class="breadcrumb-item">
-                      <a href="index.html">All Categories</a>
+                      <a rel="nofollow" href="index.html">All Categories</a>
                     </li>
-                    <li class="breadcrumb-item"><a href="#">Electronics</a></li>
+                    <li class="breadcrumb-item"><a rel="nofollow" href="#">Electronics</a></li>
                     <li class="breadcrumb-item active">Macbook</li>
                   </ol>
                 </div>
               </div>
             </div>
           </div>
+          
         </div>
-        <div class="content-detached content-right">
+        <div class="content-detached content-right" style="overflow: inherit !important;">
           <div class="">
             <!-- E-commerce Content Section Starts -->
-            <section id="ecommerce-header">
-              <div class="row">
-                <div class="col-sm-12">
-                  <div class="ecommerce-header-items">
-                    <div class="result-toggler">
-                      <button
-                        class="navbar-toggler shop-sidebar-toggler"
-                        type="button"
-                        data-toggle="collapse"
-                      >
-                        <span class="navbar-toggler-icon d-block d-lg-none"
-                          ><i data-feather="menu"></i
-                        ></span>
-                      </button>
-                      <div class="search-results">16285 results found</div>
-                    </div>
-                    <div class="view-options d-flex">
-                      <div class="btn-group dropdown-sort">
-                        <button
-                          type="button"
-                          class="btn btn-outline-primary dropdown-toggle mr-1"
-                          data-toggle="dropdown"
-                          aria-haspopup="true"
-                          aria-expanded="false"
-                        >
-                          <span class="active-sorting">Featured</span>
-                        </button>
-                        <div class="dropdown-menu">
-                          <a class="dropdown-item" href="javascript:void(0);"
-                            >Featured</a
-                          >
-                          <a class="dropdown-item" href="javascript:void(0);"
-                            >Lowest</a
-                          >
-                          <a class="dropdown-item" href="javascript:void(0);"
-                            >Highest</a
-                          >
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
+        
+
             <!-- E-commerce Content Section Starts -->
 
             <!-- background Overlay when sidebar is shown  starts-->
             <div class="body-content-overlay"></div>
             <!-- background Overlay when sidebar is shown  ends-->
 
-
-            <!-- E-commerce Products Starts -->
-            <section id="ecommerce-products" class="list-view">
-              <div class="card ecommerce-card product-card-active" >
+            <section>
+              <div class="jumbotron faq-search" style="background-image: url(app-assets/images/slider/06.jpg);background-size: cover;">
+                <h1 >
+                  <span class="font-large-1" style="color:#7367F0;">10 Best</span>
+                  <br/>
+                  <span class="font-large-3">Apple Computers</span>
+                  <br/>
+                  <span class="font-large-1">of May 2021</span></h1>
+              
                 
+                <p class="mt-3">Search for more info: </p>
+                <form class="faq-search-input">
+                  <div class="input-group input-group-merge">
+                      <div class="input-group-prepend">
+                          <div class="input-group-text" style="    height: 100%;
+                          
+                          border: 1px solid #d8d6de;">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                          </div>
+                      </div>
+                      <input type="text" class="form-control" placeholder="Apple tv 21 day...">
+                  </div>
+              </form>
+              </div>
+            </section>
+            <!-- E-commerce Products Starts -->
+            <section id="ecommerce-products" class="list-view" >
+              <div class="card ecommerce-card product-card-active" style="overflow: inherit !important;">
+                <div class="product-badge-wrap ">
+                  <span class="circle">1</span>
+                </div>
                 <div class="item-img text-center">
-                  <a href="app-ecommerce-details.html">
+                  <a rel="nofollow" href="app-ecommerce-details.html">
                     <img
                       class="img-fluid card-img-top"
                       src="app-assets/images/pages/eCommerce/1.png"
@@ -264,12 +307,12 @@
                 <div class="card-body">
 
                   <h6 class="item-name">
-                    <a class="text-body" href="app-ecommerce-details.html"
+                    <a rel="nofollow" class="text-body" href="app-ecommerce-details.html"
                       >Apple Watch Series 5</a
                     >
                     <span class="card-text item-company"
                       >By
-                      <a href="javascript:void(0)" class="company-name"
+                      <a rel="nofollow" href="javascript:void(0)" class="company-name"
                         >Apple</a
                       ></span
                     >
@@ -287,7 +330,7 @@
                     an all-new titanium.
                     
                   </p>
-                <a href="" style="order:3 !important;">See more</a>
+                <a rel="nofollow" href="" style="order:3 !important;">See more</a>
                 </div>
                 <div class="item-options text-center">
                   <div class="item-wrapper">
@@ -302,15 +345,19 @@
                     <i data-feather="heart"></i>
                     <span>View Deal</span>
                   </a>
-                  <a href="javascript:void(0)" class="btn btn-primary btn-cart">
+                  <a rel="nofollow" href="javascript:void(0)" class="btn btn-primary btn-cart">
                     <i data-feather="shopping-cart"></i>
                     <span class="add-to-cart">Add to cart</span>
                   </a>
                 </div>
               </div>
-              <div class="card ecommerce-card">
+              <div class="card ecommerce-card" style="overflow: inherit !important;">
+                <div class="product-badge-wrap ">
+                  <span class="circle">2</span>
+                  <span class="sale">30% sale off</span>
+                </div>
                 <div class="item-img text-center">
-                  <a href="app-ecommerce-details.html">
+                  <a rel="nofollow" href="app-ecommerce-details.html">
                     <img
                       class="img-fluid card-img-top"
                       src="app-assets/images/pages/eCommerce/2.png"
@@ -344,12 +391,12 @@
                     </div>
                   </div>
                   <h6 class="item-name">
-                    <a class="text-body" href="app-ecommerce-details.html"
+                    <a rel="nofollow" class="text-body" href="app-ecommerce-details.html"
                       >Apple iPhone 11 (64GB, Black)</a
                     >
                     <span class="card-text item-company"
                       >By
-                      <a href="javascript:void(0)" class="company-name"
+                      <a rel="nofollow" href="javascript:void(0)" class="company-name"
                         >Apple</a
                       ></span
                     >
@@ -377,15 +424,19 @@
                     <i data-feather="heart" class="text-danger"></i>
                     <span>View Deal</span>
                   </a>
-                  <a href="javascript:void(0)" class="btn btn-primary btn-cart">
+                  <a rel="nofollow" href="javascript:void(0)" class="btn btn-primary btn-cart">
                     <i data-feather="shopping-cart"></i>
                     <span class="add-to-cart">Add to cart</span>
                   </a>
                 </div>
               </div>
-              <div class="card ecommerce-card">
+              <div class="card ecommerce-card" style="overflow: inherit !important;">
+                <div class="product-badge-wrap " style="overflow: inherit !important;">
+                  <span class="circle">3</span>
+                  
+                </div>
                 <div class="item-img text-center">
-                  <a href="app-ecommerce-details.html"
+                  <a rel="nofollow" href="app-ecommerce-details.html"
                     ><img
                       class="img-fluid card-img-top"
                       src="app-assets/images/pages/eCommerce/3.png"
@@ -420,12 +471,12 @@
                     </div>
                   </div>
                   <h6 class="item-name">
-                    <a class="text-body" href="app-ecommerce-details.html"
+                    <a rel="nofollow" class="text-body" href="app-ecommerce-details.html"
                       >Apple iMac 27-inch</a
                     >
                     <span class="card-text item-company"
                       >By
-                      <a href="javascript:void(0)" class="company-name"
+                      <a rel="nofollow" href="javascript:void(0)" class="company-name"
                         >Apple</a
                       ></span
                     >
@@ -440,7 +491,7 @@
                     stunning Retina 5K display. It’s the desktop that does it
                     all — better and faster than ever.
                   </p>
-                  <a href="" style="order:3 !important;">See more</a>
+                  <a rel="nofollow" href="" style="order:3 !important;">See more</a>
                 </div>
                 <div class="item-options text-center">
                   <div class="item-wrapper">
@@ -456,15 +507,19 @@
                     <i data-feather="heart"></i>
                     <span>View Deal</span>
                   </a>
-                  <a href="javascript:void(0)" class="btn btn-primary btn-cart">
+                  <a rel="nofollow" href="javascript:void(0)" class="btn btn-primary btn-cart">
                     <i data-feather="shopping-cart"></i>
                     <span class="add-to-cart">Add to cart</span>
                   </a>
                 </div>
               </div>
-              <div class="card ecommerce-card">
+              <div class="card ecommerce-card" style="overflow: inherit !important;">
+                <div class="product-badge-wrap " style="overflow: inherit !important;">
+                  <span class="circle">4</span>
+                  
+                </div>
                 <div class="item-img text-center">
-                  <a href="app-ecommerce-details.html">
+                  <a rel="nofollow" href="app-ecommerce-details.html">
                     <img
                       class="img-fluid card-img-top"
                       src="app-assets/images/pages/eCommerce/4.png"
@@ -474,12 +529,12 @@
                 <div class="card-body">
               
                   <h6 class="item-name">
-                    <a class="text-body" href="app-ecommerce-details.html"
+                    <a rel="nofollow" class="text-body" href="app-ecommerce-details.html"
                       >OneOdio A71 Wired Headphones</a
                     >
                     <span class="card-text item-company"
                       >By
-                      <a href="javascript:void(0)" class="company-name"
+                      <a rel="nofollow" href="javascript:void(0)" class="company-name"
                         >OneOdio</a
                       ></span
                     >
@@ -493,7 +548,7 @@
                     Wired Headphones voice-controlled device turns any home into
                     a smart device on a smartphone or tablet.
                   </p>
-                  <a href="" style="order:3 !important;">See more</a>
+                  <a rel="nofollow" href="" style="order:3 !important;">See more</a>
                 </div>
                 <div class="item-options text-center">
                   <div class="item-wrapper">
@@ -508,15 +563,19 @@
                     <i data-feather="heart"></i>
                     <span>View Deal</span>
                   </a>
-                  <a href="javascript:void(0)" class="btn btn-primary btn-cart">
+                  <a rel="nofollow" href="javascript:void(0)" class="btn btn-primary btn-cart">
                     <i data-feather="shopping-cart"></i>
                     <span class="add-to-cart">Add to cart</span>
                   </a>
                 </div>
               </div>
-              <div class="card ecommerce-card">
+              <div class="card ecommerce-card" style="overflow: inherit !important;">
+                <div class="product-badge-wrap " style="overflow: inherit !important;">
+                  <span class="circle">5</span>
+                  
+                </div>
                 <div class="item-img text-center">
-                  <a href="app-ecommerce-details.html">
+                  <a rel="nofollow" href="app-ecommerce-details.html">
                     <img
                       class="img-fluid card-img-top"
                       src="app-assets/images/pages/eCommerce/5.png"
@@ -527,13 +586,13 @@
                 <div class="card-body">
                 
                   <h6 class="item-name">
-                    <a class="text-body" href="app-ecommerce-details.html">
+                    <a rel="nofollow" class="text-body" href="app-ecommerce-details.html">
                       Apple - MacBook Air® (Latest Model) - 13.3" Display -
                       Silver
                     </a>
                     <span class="card-text item-company"
                       >By
-                      <a href="javascript:void(0)" class="company-name"
+                      <a rel="nofollow" href="javascript:void(0)" class="company-name"
                         >Apple</a
                       ></span
                     >
@@ -546,7 +605,7 @@
                     enough to take everywhere you go-and powerful enough to do
                     everything once you get there, better.
                   </p>
-                  <a href="" style="order:3 !important;">See more</a>
+                  <a rel="nofollow" href="" style="order:3 !important;">See more</a>
                 </div>
                 <div class="item-options text-center">
                   <div class="item-wrapper">
@@ -561,15 +620,19 @@
                     <i data-feather="heart" class="text-danger"></i>
                     <span>View Deal</span>
                   </a>
-                  <a href="javascript:void(0)" class="btn btn-primary btn-cart">
+                  <a rel="nofollow" href="javascript:void(0)" class="btn btn-primary btn-cart">
                     <i data-feather="shopping-cart"></i>
                     <span class="add-to-cart">Add to cart</span>
                   </a>
                 </div>
               </div>
-              <div class="card ecommerce-card">
+              <div class="card ecommerce-card" style="overflow: inherit !important;">
+                <div class="product-badge-wrap " style="overflow: inherit !important;">
+                  <span class="circle">6</span>
+                  
+                </div>
                 <div class="item-img text-center">
-                  <a href="app-ecommerce-details.html">
+                  <a rel="nofollow" href="app-ecommerce-details.html">
                     <img
                       class="img-fluid card-img-top"
                       src="app-assets/images/pages/eCommerce/6.png"
@@ -580,12 +643,12 @@
                 <div class="card-body">
                
                   <h6 class="item-name">
-                    <a class="text-body" href="app-ecommerce-details.html">
+                    <a rel="nofollow" class="text-body" href="app-ecommerce-details.html">
                       Switch Pro Controller
                     </a>
                     <span class="card-text item-company"
                       >By
-                      <a href="javascript:void(0)" class="company-name"
+                      <a rel="nofollow" href="javascript:void(0)" class="company-name"
                         >Sharp</a
                       ></span
                     >
@@ -599,7 +662,7 @@
                     uses Bluetooth, so you don't need an adapter to use it with
                     your PC.
                   </p>
-                  <a href="" style="order:3 !important;">See more</a>
+                  <a rel="nofollow" href="" style="order:3 !important;">See more</a>
                 </div>
                 <div class="item-options text-center">
                   <div class="item-wrapper">
@@ -615,15 +678,19 @@
                     <i data-feather="heart"></i>
                     <span>View Deal</span>
                   </a>
-                  <a href="javascript:void(0)" class="btn btn-primary btn-cart">
+                  <a rel="nofollow" href="javascript:void(0)" class="btn btn-primary btn-cart">
                     <i data-feather="shopping-cart"></i>
                     <span class="add-to-cart">Add to cart</span>
                   </a>
                 </div>
               </div>
-              <div class="card ecommerce-card">
+              <div class="card ecommerce-card" style="overflow: inherit !important;">
+                <div class="product-badge-wrap " style="overflow: inherit !important;">
+                  <span class="circle">7</span>
+                  
+                </div>
                 <div class="item-img text-center">
-                  <a href="app-ecommerce-details.html">
+                  <a rel="nofollow" href="app-ecommerce-details.html">
                     <img
                       class="img-fluid card-img-top"
                       src="app-assets/images/pages/eCommerce/7.png"
@@ -634,12 +701,12 @@
                 <div class="card-body">
 
                   <h6 class="item-name">
-                    <a class="text-body" href="app-ecommerce-details.html">
+                    <a rel="nofollow" class="text-body" href="app-ecommerce-details.html">
                       Google - Google Home - White/Slate fabric
                     </a>
                     <span class="card-text item-company"
                       >By
-                      <a href="javascript:void(0)" class="company-name"
+                      <a rel="nofollow" href="javascript:void(0)" class="company-name"
                         >Google</a
                       ></span
                     >
@@ -652,7 +719,7 @@
                     Android and iOS operating systems, and can control
                     compatible smart devices such as Chromecast or Nest.
                   </p>
-                  <a href="" style="order:3 !important;">See more</a>
+                  <a rel="nofollow" href="" style="order:3 !important;">See more</a>
                 </div>
                 <div class="item-options text-center">
                   <div class="item-wrapper">
@@ -668,15 +735,19 @@
                     <i data-feather="heart"></i>
                     <span>View Deal</span>
                   </a>
-                  <a href="javascript:void(0)" class="btn btn-primary btn-cart">
+                  <a rel="nofollow" href="javascript:void(0)" class="btn btn-primary btn-cart">
                     <i data-feather="shopping-cart"></i>
                     <span class="add-to-cart">Add to cart</span>
                   </a>
                 </div>
               </div>
-              <div class="card ecommerce-card">
+              <div class="card ecommerce-card"  style="overflow: inherit !important;">
+                <div class="product-badge-wrap " style="overflow: inherit !important;">
+                  <span class="circle">8</span>
+                  
+                </div>
                 <div class="item-img text-center">
-                  <a href="app-ecommerce-details.html">
+                  <a rel="nofollow" href="app-ecommerce-details.html">
                     <img
                       class="img-fluid card-img-top"
                       src="app-assets/images/pages/eCommerce/8.png"
@@ -687,12 +758,12 @@
                 <div class="card-body">
 
                   <h6 class="item-name">
-                    <a class="text-body" href="app-ecommerce-details.html">
+                    <a rel="nofollow" class="text-body" href="app-ecommerce-details.html">
                       Sony 4K Ultra HD LED TV
                     </a>
                     <span class="card-text item-company"
                       >By
-                      <a href="javascript:void(0)" class="company-name"
+                      <a rel="nofollow" href="javascript:void(0)" class="company-name"
                         >Apple</a
                       ></span
                     >
@@ -705,7 +776,7 @@
                     connect various gadgets such as your laptop using the HDMI
                     port. The TV comes with a 1 Year warranty.
                   </p>
-                  <a href="" style="order:3 !important;">See more</a>
+                  <a rel="nofollow" href="" style="order:3 !important;">See more</a>
                 </div>
                 <div class="item-options text-center">
                   <div class="item-wrapper">
@@ -720,15 +791,19 @@
                     <i data-feather="heart"></i>
                     <span>View Deal</span>
                   </a>
-                  <a href="javascript:void(0)" class="btn btn-primary btn-cart">
+                  <a rel="nofollow" href="javascript:void(0)" class="btn btn-primary btn-cart">
                     <i data-feather="shopping-cart"></i>
                     <span class="add-to-cart">Add to cart</span>
                   </a>
                 </div>
               </div>
-              <div class="card ecommerce-card">
+              <div class="card ecommerce-card" style="overflow: inherit !important;">
+                <div class="product-badge-wrap " style="overflow: inherit !important;">
+                  <span class="circle">8</span>
+                  
+                </div>
                 <div class="item-img text-center">
-                  <a href="app-ecommerce-details.html">
+                  <a rel="nofollow" href="app-ecommerce-details.html">
                     <img
                       class="img-fluid card-img-top"
                       src="app-assets/images/pages/eCommerce/9.png"
@@ -739,12 +814,12 @@
                 <div class="card-body">
 
                   <h6 class="item-name">
-                    <a class="text-body" href="app-ecommerce-details.html">
+                    <a rel="nofollow" class="text-body" href="app-ecommerce-details.html">
                       OnePlus 7 Pro
                     </a>
                     <span class="card-text item-company"
                       >By
-                      <a href="javascript:void(0)" class="company-name"
+                      <a rel="nofollow" href="javascript:void(0)" class="company-name"
                         >Philips</a
                       ></span
                     >
@@ -760,7 +835,7 @@
                     display produces vivid colours, deep blacks and has good
                     viewing angles.
                   </p>
-                  <a href="" style="order:3 !important;">See more</a>
+                  <a rel="nofollow" href="" style="order:3 !important;">See more</a>
                 </div>
                 <div class="item-options text-center">
                   <div class="item-wrapper">
@@ -775,7 +850,7 @@
                     <i data-feather="heart"></i>
                     <span>View Deal</span>
                   </a>
-                  <a href="javascript:void(0)" class="btn btn-primary btn-cart">
+                  <a rel="nofollow" href="javascript:void(0)" class="btn btn-primary btn-cart">
                     <i data-feather="shopping-cart"></i>
                     <span class="add-to-cart">Add to cart</span>
                   </a>
@@ -784,47 +859,46 @@
             </section>
             <!-- E-commerce Products Ends -->
 
+
+
             <!-- E-commerce Pagination Starts -->
             <section id="ecommerce-pagination">
               <div class="row">
-                <div class="col-sm-12">
-                  <nav aria-label="Page navigation example">
-                    <ul class="pagination justify-content-center mt-2">
-                      <li class="page-item prev-item">
-                        <a class="page-link" href="javascript:void(0);"></a>
-                      </li>
-                      <li class="page-item active">
-                        <a class="page-link" href="javascript:void(0);">1</a>
-                      </li>
-                      <li class="page-item">
-                        <a class="page-link" href="javascript:void(0);">2</a>
-                      </li>
-                      <li class="page-item">
-                        <a class="page-link" href="javascript:void(0);">3</a>
-                      </li>
-                      <li class="page-item" aria-current="page">
-                        <a class="page-link" href="javascript:void(0);">4</a>
-                      </li>
-                      <li class="page-item">
-                        <a class="page-link" href="javascript:void(0);">5</a>
-                      </li>
-                      <li class="page-item">
-                        <a class="page-link" href="javascript:void(0);">6</a>
-                      </li>
-                      <li class="page-item">
-                        <a class="page-link" href="javascript:void(0);">7</a>
-                      </li>
-                      <li class="page-item next-item">
-                        <a class="page-link" href="javascript:void(0);"></a>
-                      </li>
-                    </ul>
-                  </nav>
-                </div>
+<div class="col-lg-12" style="order:3">
+            <section >
+              <div class="row">
+                  <div class="col-12 px-0">
+                      <div class="card knowledge-base-bg text-center" style="background-image: url('../../../app-assets/images/banner/banner.png')">
+                          <div class="card-body d-flex justify-content-around align-items-center py-2">
+                            <div class="d-lg-block d-none">
+                              <img src="https://stdiohue.com/images/homepage/contact-people.png?v=2" style="width:150px"/>
+                            </div>
+                             <div> <h2 class="text-primary">Newsletter</h2>
+                              <p class="card-text mb-2">
+                                Get exclusive articles, recommendations, shopping tips, and sales alerts
+                              </p>
+                              <form class="kb-search-input d-flex">
+                                  <div class="input-group input-group-merge w-100">
+                                      
+                                      <input type="text" class="form-control" id="searchbar" placeholder="Enter your email" />
+                                  </div>
+                                  <button type="button" style="width:150px" class="ml-2 btn btn-primary waves-effect waves-float waves-light">Subscribe</button>
+                              </form></div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </section>
+          <!--/ Knowledge base Jumbotron -->
+  
+      
+          </div>
               </div>
             </section>
             <!-- E-commerce Pagination Ends -->
           </div>
         </div>
+        
       </div>
     </div>
 

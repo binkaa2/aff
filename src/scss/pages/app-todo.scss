@@ -1,5 +1,5 @@
-@import '../bootstrap-extended/include'; // Bootstrap includes
-@import '../components/include'; // Components includes
+@import "../bootstrap-extended/include"; // Bootstrap includes
+@import "../components/include"; // Components includes
 
 // Todo Application css starts
 .todo-application {
@@ -49,7 +49,7 @@
               color: $primary;
             }
             &.active {
-              border-color: #7367f0;
+              border-color: #1542f8;
             }
           }
         }

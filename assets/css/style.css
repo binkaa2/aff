@@ -59,7 +59,7 @@ WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BET
   .container-md,
   .container-lg,
   .container-xl {
-    max-width: 1000px;
+    max-width: 900px;
   }
 }
 
@@ -68,5 +68,5 @@ WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BET
 .container-md,
 .container-lg,
 .container-xl {
-  max-width: 1000px;
+  max-width: 900px;
 }
